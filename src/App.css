@@ -1,0 +1,39 @@
+.cat_div{
+    background-color: #e6e6e6;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 0px 40px;
+    width: 100%;
+    gap: 50px;
+}
+.title{
+    text-align: center;
+}
+.cat_box{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+}
+.cat_box span{
+    border: 1px solid #900;
+    font-weight: 500;
+    background-color: white;
+    color: #900;
+    padding: 1px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.title h6{
+    margin: 0;
+}
+.cat_box span:hover{
+    background-color: #900;
+    transition: 200ms all;
+    color: white;
+
+}
+.infinite-scroll-component{
+    overflow: visible !important;
+}
